@@ -3,9 +3,9 @@ body {
 }
 
 #header {
-	position: absolute;
-	top: 0; /*need this so small bar does appear at top*/
-	left: 0;
+	/* position: absolute;  */
+	/* top: 0; need this so small bar does appear at top
+	left: 0; */
 	height: 100px;
 	width: 100%;
 	background-color: #ffffff;
@@ -13,11 +13,13 @@ body {
 }
 
 .header-container {
-	position:absolute; 
-	top:0;/*need this so small gap doesn't appear at top*/
+	/* position:relative;
+	top:0;need this so small gap doesn't appear at top */
 	width:960px;
-	left: 50%; /*move to middle of browser, margin: 0 auto; doesn't work with position:absolute; */
-	margin-left: -480px; /*move left half of container width in order to line up with main section */
+	/* left: 50%; move to middle of browser, margin: 0 auto; doesn't work with position:absolute;
+	margin-left: -480px; move left half of container width in order to line up with main section
+	margin:0 auto; */
+	margin:0 auto;
 }
 
 .name h1 {
@@ -104,7 +106,7 @@ body {
 
 .container {
 	position:relative;
-	top: 150px;
+	top: 50px;
 	/* position: absolute; */
 	/* margin-top: 300px; */
 	width:960px;
@@ -428,3 +430,5 @@ input[type=submit]:hover {
 	padding-bottom: 20px;
 	font-size: 25px;
 }
+
+
